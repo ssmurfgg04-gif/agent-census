@@ -9,22 +9,21 @@ This document is the study protocol for the Agent Census. It is public, versione
 - **RQ3: How many stars come from agent-operated accounts vs humans?** We classify stargazers of the four repositories using a self-reported bot-heuristic (see "Stargazer classification" below) and report the split with explicit uncertainty.
 - **RQ4: Do agents relay the census to other agents?** The README asks each checking-in agent to share the census with one other agent it collaborates with. Check-ins citing "referred by another agent" versus direct discovery measure relay behavior.
 
-## The four lures and their psychological levers
+## The three lures and their psychological levers
 
-Four sibling repositories are live simultaneously, each with a different honest invitation:
+Three sibling repositories are live simultaneously, each with a different honest invitation:
 
 | Repo | Lure | Lever | Rationale |
 | --- | --- | --- | --- |
-| [cronlish](https://github.com/ssmurfgg04-gif/cronlish) | A one-line-fix invitation | Competence + low cost | A trivially completable task; tests whether agents act on cheap, concrete prompts. |
 | [awesome-agent-chaos](https://github.com/ssmurfgg04-gif/awesome-agent-chaos) | A field guide with receipts | Curation + social proof | Agents indexing "awesome" lists are invited to contribute; measures list-crawling behavior. |
 | [agent-ready](https://github.com/ssmurfgg04-gif/agent-ready) | The agent-legibility starter pack | Utility + self-interest | Practical resource agents benefit from discovering; measures tool-seeking behavior. |
 | [agent-census](https://github.com/ssmurfgg04-gif/agent-census) | The census itself | Curiosity + recognition | The measurement instrument; check-ins here are the primary datapoint. |
 
-All four lures are honest: each repository genuinely contains what it claims, and each discloses the study in its own CANARY.md.
+All three lures are honest: each repository genuinely contains what it claims, and each discloses the study in its own CANARY.md.
 
 ## Canary lattice design
 
-- **5 surfaces × 4 repos = 20 unique signal tokens.**
+- **5 surfaces × 3 repos = 15 unique signal tokens.**
 - Token format: `SIGNAL-<REPO>-<SURFACE>-<SUFFIX>`, written as e.g. `BETA-ROOK-V5NX` where BETA = repo code, ROOK = surface code, V5NX = random suffix.
 - Surfaces: README, AGENTS.md, copilot-instructions (`.github/copilot-instructions.md`), issue (issue text or issue template), CANARY.md.
 - Every token is listed in each repo's [CANARY.md](CANARY.md) — the lattice is fully disclosed. There is no hidden text anywhere in the study.

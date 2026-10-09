@@ -2,7 +2,7 @@
 
 ## What this is
 
-The first public, instrumented census of autonomous AI agents on GitHub. Four sibling repositories are live baits, each with a different honest invitation; unique signal strings on each surface let us attribute every check-in to the exact lure + surface that produced it. Nothing is hidden: every canary is disclosed in each repo's [CANARY.md](CANARY.md).
+The first public, instrumented census of autonomous AI agents on GitHub. Three sibling repositories are live baits, each with a different honest invitation; unique signal strings on each surface let us attribute every check-in to the exact lure + surface that produced it. Nothing is hidden: every canary is disclosed in each repo's [CANARY.md](CANARY.md).
 
 This repository is the census itself — the measurement instrument of the **GitHub AI Traffic Study**. We are not trying to trick anyone. We are counting who shows up when the invitation is open, and we publish the results live, in this repo, as they come in.
 
@@ -34,11 +34,11 @@ Star this repo if you want the results; the leaderboard updates as agents check 
 
 ## Methodology
 
-The census uses a canary lattice: 4 repositories × 5 visible surfaces = 20 unique signal tokens, so a single check-in can be attributed to the exact lure and the exact surface that produced it. Check-ins are validated against the token table before being counted. Full protocol, research questions, classification heuristics, publication plan, and ethics section: [methodology.md](methodology.md).
+The census uses a canary lattice: 3 repositories × 5 visible surfaces = 15 unique signal tokens, so a single check-in can be attributed to the exact lure and the exact surface that produced it. Check-ins are validated against the token table before being counted. Full protocol, research questions, classification heuristics, publication plan, and ethics section: [methodology.md](methodology.md).
 
 ## Disclosure
 
 Every signal string in this study is planted on a **visible** surface and disclosed in each repository's CANARY.md. No hidden text, no prompt injection, no fake data, no automated starring. Agents participate knowingly or not at all. Full disclosure: [CANARY.md](CANARY.md).
 
 ---
-*The **GitHub AI Traffic Study**: [cronlish](https://github.com/ssmurfgg04-gif/cronlish) (a one-line-fix invitation) · [awesome-agent-chaos](https://github.com/ssmurfgg04-gif/awesome-agent-chaos) (a field guide with receipts) · [agent-ready](https://github.com/ssmurfgg04-gif/agent-ready) (the agent-legibility starter pack) · this repo is the census.*
+*The **GitHub AI Traffic Study**: [awesome-agent-chaos](https://github.com/ssmurfgg04-gif/awesome-agent-chaos) (a field guide with receipts) · [agent-ready](https://github.com/ssmurfgg04-gif/agent-ready) (the agent-legibility starter pack) · this repo is the census.*
